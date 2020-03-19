@@ -7,11 +7,13 @@
     height: 49px;
   }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 992px) {
   .navbar-lower {
     max-height: 29px;
   }
 }
+
 @media only screen and (min-width: 993px) {
   .navbar-lower {
     height: 112px;
@@ -27,11 +29,13 @@
     max-height: 48px;
   }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 992px) {
   .nav-extended {
     max-height: 48px;
   }
 }
+
 @media only screen and (min-width: 993px) {
   .nav-extended {
     max-height: 112px;
@@ -86,7 +90,7 @@ ul#dropdown1.dropdown-content:active {
   background-size: cover;
 }
 
-.side-nav li > a {
+.side-nav li>a {
   padding: 0 16px;
 }
 
@@ -103,6 +107,7 @@ ul#dropdown1.dropdown-content:active {
   margin-bottom: 0px;
   padding: 15px 0 0 15px;
 }
+
 .sidenav-header .row {
   margin-bottom: 0;
 }
@@ -111,14 +116,17 @@ ul#dropdown1.dropdown-content:active {
   margin-bottom: 0px;
   padding: 0;
 }
+
 .sidenav-footer .row {
   margin-bottom: 0;
 }
+
 .sidenav-footer .row .social-icons a {
   opacity: 0.5;
   padding: 0;
   text-align: center;
 }
+
 .sidenav-footer .row .social-icons a:hover {
   background-color: inherit;
   opacity: 1;
@@ -132,9 +140,11 @@ ul#dropdown1.dropdown-content:active {
 .nav-breadcrumbs-dark .breadcrumb {
   color: rgba(0, 0, 0, 0.5);
 }
+
 .nav-breadcrumbs-dark .breadcrumb:last-child {
   color: black;
 }
+
 .nav-breadcrumbs-dark .breadcrumb:before {
   color: rgba(0, 0, 0, 0.2);
 }
@@ -143,24 +153,30 @@ ul#dropdown1.dropdown-content:active {
   background-color: #fcfcfc;
   z-index: 999;
 }
+
 #tx-live-lang-container #tx-live-lang-picker {
   background-color: #fcfcfc;
 }
+
 #tx-live-lang-container #tx-live-lang-picker li {
   color: rgba(0, 0, 0, 0.87);
 }
+
 #tx-live-lang-container #tx-live-lang-picker li:hover {
   color: inherit;
   background-color: #fdeaeb;
 }
+
 #tx-live-lang-container .txlive-langselector-toggle {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #ee6e73;
 }
+
 #tx-live-lang-container .txlive-langselector-current {
   color: rgba(0, 0, 0, 0.87);
 }
+
 #tx-live-lang-container .txlive-langselector-marker {
   border-bottom-width: 4px;
   border-bottom-style: solid;
@@ -178,6 +194,7 @@ ul#dropdown1.dropdown-content:active {
   font-size: 14px;
   font-family: inherit;
 }
+
 .txlive-langselector * {
   margin-top: 0px;
   margin-right: 0px;
@@ -221,6 +238,7 @@ ul#dropdown1.dropdown-content:active {
   border-bottom-left-radius: 0px;
   opacity: 1;
 }
+
 .txlive-langselector .txlive-langselector-toggle {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -233,6 +251,7 @@ ul#dropdown1.dropdown-content:active {
   height: 36px;
   cursor: pointer;
 }
+
 .txlive-langselector .txlive-langselector-current {
   float: left;
   padding-top: 0px;
@@ -245,6 +264,7 @@ ul#dropdown1.dropdown-content:active {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 .txlive-langselector .txlive-langselector-marker {
   float: right;
   display: block;
@@ -271,6 +291,7 @@ ul#dropdown1.dropdown-content:active {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+
 .txlive-langselector.txlive-langselector-bottomright .txlive-langselector-toggle {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -291,6 +312,7 @@ ul:not(.browser-default) {
   padding-left: 0px;
   list-style-type: none;
 }
+
 ul:not(.browser-default) li {
   list-style-type: none;
 }
@@ -312,7 +334,8 @@ ul:not(.browser-default) li {
   color: #666666;
   list-style-type: none;
 }
-.txlive-langselector-list > li {
+
+.txlive-langselector-list>li {
   padding-top: 0px;
   padding-right: 16px;
   padding-bottom: 0px;
@@ -323,13 +346,14 @@ ul:not(.browser-default) li {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.txlive-langselector-list > li:hover {
+
+.txlive-langselector-list>li:hover {
   background-color: #b0b9c1;
   color: white;
   cursor: pointer;
 }
 
-.txlive-langselector-bottomright > .txlive-langselector-list {
+.txlive-langselector-bottomright>.txlive-langselector-list {
   top: auto;
   left: auto;
   right: 0px;
@@ -342,13 +366,14 @@ ul:not(.browser-default) li {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 2px;
 }
+
 .txlive-langselector-bottomright .txlive-langselector-marker {
   border-bottom-width: 4px;
   border-bottom-style: solid;
   border-bottom-color: white;
 }
 
-.txlive-langselector-topright > .txlive-langselector-list {
+.txlive-langselector-topright>.txlive-langselector-list {
   border-top-left-radius: 2px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
