@@ -1,59 +1,75 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Materialize - Transparent Navbar</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
-
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .box {
+      height: 500px;
+      margin-top: 150px;
+    }
+  </style>
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<div class="navbar-fixed">
-  <nav class="transparent z-depth-0">
-    <div class="nav-wrapper">
-      <div class="row">
-        <div class="col s12">
-          <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
-          <a href="https://codepen.io/collection/nbBqgY/" class="brand-logo" target="_blank">Materialize Framework</a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="https://github.com/dogfalo/materialize/" target="_blank">Github</a></li>
-            <li><a href="https://twitter.com/MaterializeCSS" target="_blank">Twitter</a></li>
-            <li><a href="http://next.materializecss.com/getting-started.html" target="_blank">Docs</a></li>
-          </ul>
+  <!-- partial:index.partial.html -->
+  <div class="navbar-fixed">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <div class="row">
+          <div class="col s12">
+            <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i
+                class="material-icons">menu</i></a>
+            <a href="https://codepen.io/collection/nbBqgY/" class="brand-logo" target="_blank">Materialize Framework</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="https://github.com/dogfalo/materialize/" target="_blank">Github</a></li>
+              <li><a href="https://twitter.com/MaterializeCSS" target="_blank">Twitter</a></li>
+              <li><a href="http://next.materializecss.com/getting-started.html" target="_blank">Docs</a></li>
+            </ul>
+          </div>
         </div>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="https://github.com/dogfalo/materialize/" target="_blank">Github</a></li>
+          <li><a href="https://twitter.com/MaterializeCSS" target="_blank">Twitter</a></li>
+          <li><a href="http://next.materializecss.com/getting-started.html" target="_blank">Docs</a></li>
+        </ul>
       </div>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="https://github.com/dogfalo/materialize/" target="_blank">Github</a></li>
-        <li><a href="https://twitter.com/MaterializeCSS" target="_blank">Twitter</a></li>
-        <li><a href="http://next.materializecss.com/getting-started.html" target="_blank">Docs</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-
-
-
-<section class="video-container">
-  <video src="https://static.videezy.com/system/resources/previews/000/000/211/original/City%20street%20time%20lapse%20[SaveYouTube.com].mp4" autoplay loop playsinline></video>
-  <div class="callout">
-    <h1>A background video</h1>
-    <div>
-      <p>Object-Fit is the CSS Background-Size: Cover for Inline Images &amp; Videos.
-      <br>It's not Microsoft friendly.</p>
-      <a class="waves-effect waves-light btn-large red lighten-2" href="https://codepen.io/DylanMacnab/pen/NjVXEe" target="_blank">Source</a>
-    </div>
+    </nav>
   </div>
-  <div class="support">
-     <a href="http://caniuse.com/#search=object-fit">Browser Support</a><br>
-     <a href="https://github.com/jonathantneal/fitie">Need to support IE &amp; Edge?</a>
-  </div>
-</section>
-<!-- partial -->
+
+
+
+  <section class="video-container">
+    <video
+      src="https://static.videezy.com/system/resources/previews/000/000/211/original/City%20street%20time%20lapse%20[SaveYouTube.com].mp4"
+      autoplay loop playsinline></video>
+    <div class="callout">
+      <h1>A background video</h1>
+      <div>
+        <p>Object-Fit is the CSS Background-Size: Cover for Inline Images &amp; Videos.
+          <br>It's not Microsoft friendly.</p>
+        <a class="waves-effect waves-light btn-large red lighten-2" href="https://codepen.io/DylanMacnab/pen/NjVXEe"
+          target="_blank">Source</a>
+      </div>
+    </div>
+    <div class="support">
+      <a href="http://caniuse.com/#search=object-fit">Browser Support</a><br>
+      <a href="https://github.com/jonathantneal/fitie">Need to support IE &amp; Edge?</a>
+    </div>
+  </section>
+  <div class="box orange"></div>
+  <div class="box teal"></div>
+  <div class="box blue"></div>
+  <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js'></script>
 </body>
+
 </html>
